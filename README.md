@@ -15,7 +15,7 @@ This repository contains an example setup for running an Express API application
 2. Clone this repository: `git clone https://github.com/mouad-halli/windows-container-api`
 3. Navigate to the repository directory: `cd windows-container-api`
 5. Build the Docker image: `docker build -t api-image .`
-6. Run the Docker container: `docker run -it --name api-container -p 3000:8080 -v ${pwd}/shared:C:\usr\shared api-image`
+6. Run the Docker container: `docker run -it --name api-container -p 8080:3000 -v ${pwd}/shared:C:\usr\shared api-image`
 
 ## Usage
 
